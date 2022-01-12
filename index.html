@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+    <head>
+        <title> @Dasturlashga_oid telegram kanali </title>
+    </head>
+    <body>
+        <h1> Medialar bilan ishlash (CSS aralashtirilmagan) </h1> 
+        <p> p.s. Faqat shu kungacha o'tilgan mavzulardan foydalaniladi </p> <hr>
+
+        <h2> Rasmlar bilan ishlash </h2>
+        
+        <p> Rasmlarni chop etishda img tegidagidan foydaliniladi, uning sintaksisi quyidagicha: </p>        
+        <img src="./images/imgteg.png" alt="img tegi sintaksisi"> <br>
+        
+        <p> "src" atributida rasmga manba qoldiriladi. 
+        
+            <br> 1) Agar rasm manba kod yozilgan fayl bilan bitta papkada bo'lsa src="./rasmnomi.kengaytma" ko'rinishida yoziladi. !Bitta nuqta manba bir papkada joylashganini anglatadi. Manba bitta papkada bo'lsa nuqtasiz yozsa ham not'g'ri bo'lmaydi kod ishlayveradi.            
+        
+            <br> 2) Agar rasm kod yozilgan fayldan bitta papka ichkariroqda bo'lsa src="./papkanomi/rasmnomi.kengaytma" ko'rinishida yozish kerak bo'ladi. 
+        
+            <br> 3) Agar rasm kod yozilgan fayldan bitta papka tashqarida bo'lsa src="../rasmnomi.kengaytma" yoki src="../papkanomi/rasmnomi.kengaytma" ko'rinishida yozasiz. Ikkita nuqta bitta papka ortga qaytish ma'nosini anglatadi. 
+
+        </p> <br>
+
+        <p>
+            "alt" atributiga brauzer rasmni yuklay olmaganda (asosan manba xato berilgan bo'ladi, shunig uchun manbani tekshirishni unutmang!) qanday matn chiqarishi kerak ekanligini yozasiz. Quyida xato manbaga misol keltirilgan: 
+        </p>
+
+        <img src="./images/xato.png" alt="Chiqmasa ham hech narsa qilmaydi.">
+        <p> natija: </p>
+        <img src="MANBA-XATO" alt="Rasm topilmadi?!"> <br> <br>
+
+        <p> E'tibor bergan bo'lsangiz yuqorida 2 ta rasmdan foydalandim. Buni tushunish uchun kod bilan sahifani teng o'qib ketishni tavsiya etaman.</p> <br>
+
+        <p>
+            Yana bir narsani qo'shib o'tishimiz kerak. Bu hajm berish. Balandlik va kenglik. Buni asosan CSSda qilinadi, ammo biz hali CSS ni boshlamaganimiz tufayli hajm berishda 2 atributdan foydalanamiz. Bular "width" va "height". Ingliz tilidan ozgina xabari odam tushunadiki "width" - "kenglik", "height" - "balandlik". Atributlarning qiymatlari piksellarda o'chanadi, va uni atributda ko'rsatib o'tish majburiy emas. Masalan width="100" ko'rsatilgan bo'lsa, kenglikni 100 pikselgacha kichraytiradi yoki kengaytiradi. Ha yana width bilan height'ni turlicha hamga ega qilish mumkin. Quyida misol keltiramiz. 
+        </p>
+        <img src="./images/image.jpg" alt="Channel">
+        <p>
+            Yuqoridagi rasmning hajmi 601x601. Ya'ni balandligi ham kengligi ham 601 pikselga teng. Buni masalan hozir 200x400 pikselga kichraytiramiz: 
+        </p>
+        <img src="./images/to200.png" alt="200 pikselga kichraytirish kodi">
+        <p> natija: </p>
+        <img src="./images/image.jpg" alt="Channel" width="200" height="400"> <br>
+
+        <p>
+            Shunday qilib html'da rasmlar bilan ishlashni bilib oldingiz. Bizni kuzatishda davom eting @Dasturlashga_oid telegram kanali.
+        </p>
+        
+        <!-- @dasturlashga_oid telegram kanalida veb dasturlash kursi davom etadi! -->
+    </body>
+</html>
